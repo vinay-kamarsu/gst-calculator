@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">GST CALCULATOR</h1>
+        <div class="calculator">
+    <table>
+            <tr>
+        <input type="text" name="screen" id="input">
+    </tr>
+        
+            <tr>
+                <td><button onclick="getinput('(')">(</button></td>
+                <td><button onclick="getinput(')')">)</button></td>
+                <td><button onclick="clearscreen('C')">AC</button></td>
+                <td><button onclick="getinput('%')">%</button></td>
+                <td><button onclick="GSTCALCULATOR('')">28%</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getinput('7')">7</button></td>
+                <td><button onclick="getinput('8')">8</button></td>
+                <td><button onclick="getinput('9')">9</button></td>
+                <td><button onclick="getinput('*')">x</button></td>
+                <td><button onclick="GSTCALC('')">18%</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getinput('4')">4</button></td>
+                <td><button onclick="getinput('5')">5</button></td>
+                <td><button onclick="getinput('6')">6</button></td>
+                <td><button onclick="getinput('-')">-</button></td>
+                <td><button onclick="GSTCAL('')">12%</button></td>
+                
+            </tr>
+              <tr>
+                <td><button onclick="getinput('1')">1</button></td>
+                <td><button onclick="getinput('2')">2</button></td>
+                <td><button onclick="getinput('3')">3</button>
+                <td><button onclick="getinput('+')">+</button></td>
+                <td><button onclick="GSTCA('')">5%</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getinput('0')">0</button></td>
+                <td><button onclick="getinput('.')">.</button></td>
+                <td><button onclick="getinput('/')">/</button></td>
+                <td><button onclick="getoutput('=')">=</button></td>
+                <td><button onclick="GST('')">3%</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
